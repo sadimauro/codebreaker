@@ -1,0 +1,8 @@
+fn='./register.pcap_5_fromVictim.txt'
+with open(fn, 'r') as f:
+    data = f.read().strip(); f.close()
+b = b''
+for i in range(int(len(data)/2)):
+    b += bytes([int(data[2*i:(2*i)+2])])
+with open(fn+'.bin', 'wb') as fnout: 
+    fnout.write(b); fnout.close()    
