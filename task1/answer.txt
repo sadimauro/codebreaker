@@ -1,4 +1,4 @@
 victim id = 0x516932143b57a201335f6bf20111716024a846e3e7af53baf3fc31a48d078566
-
-
+encrypted ransom key = 
+OTP key = 
 escrow contract address = 0x24486f98b8fB01a41C56366500751921eC0D923E
